@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="style_7f140032" parent="@android:style/TextAppearance.Material.Widget.ActionBar.Menu" />
+    <style name="style_7f14003c" parent="@android:style/TextAppearance.Material.Widget.Button.Inverse" />
+    <style name="style_7f14004b" parent="@style/style_7f1400b0" />
+    <style name="style_7f140052" parent="@style/style_7f1400b1" />
+    <style name="style_7f140059" parent="@style/style_7f1402a1">
+        <item name="android:fontFamily">@font/MT_Bin</item>
+        <item name="android:colorControlNormal">#ff65705f</item>
+        <item name="android:colorControlActivated">@color/color_7f060002</item>
+        <item name="android:colorButtonNormal">@color/color_7f060001</item>
+        <item name="android:colorControlHighlight">#407cff00</item>
+        <item name="android:colorPrimary">@color/color_7f060001</item>
+        <item name="android:colorPrimaryDark">#ff102600</item>
+        <item name="android:colorAccent">@color/color_7f060002</item>
+        <item name="android:statusBarColor">#ff102600</item>
+        <item name="android:navigationBarColor">#ff081400</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="attr_7f040115">@color/color_7f060002</item>
+        <item name="attr_7f040117">@color/color_7f060001</item>
+        <item name="attr_7f040119">@color/color_7f060002</item>
+        <item name="attr_7f04011a">#407cff00</item>
+        <item name="attr_7f04011b">#ff65705f</item>
+        <item name="attr_7f040128">@color/color_7f060024</item>
+        <item name="attr_7f040135">@color/color_7f060001</item>
+        <item name="attr_7f040137">#ff102600</item>
+        <item name="attr_7f04013e">@color/color_7f060026</item>
+        <item name="attr_7f040142">@color/color_7f060328</item>
+        <item name="attr_7f040686">true</item>
+    </style>
+    <style name="style_7f1400ca" parent="@android:style/Widget.Material.ActionButton.Overflow" />
+    <style name="style_7f1400d0" parent="@android:style/Widget.Material.Button.Borderless.Colored" />
+    <style name="style_7f1400d2" parent="@android:style/Widget.Material.Button.Colored">
+        <item name="android:textAppearance">@style/style_7f140221</item>
+    </style>
+    <style name="style_7f1400dc" parent="@android:style/Widget.Material.EditText">
+        <item name="android:breakStrategy">simple</item>
+        <item name="android:hyphenationFrequency">none</item>
+    </style>
+    <style name="style_7f1400f1" parent="@android:style/Widget.Material.RatingBar.Indicator" />
+    <style name="style_7f1400f2" parent="@android:style/Widget.Material.RatingBar.Small" />
+    <style name="style_7f1400f8" parent="@android:style/Widget.Material.Spinner.Underlined" />
+    <style name="style_7f1400f9" parent="@android:style/Widget.Material.TextView">
+        <item name="android:breakStrategy">high_quality</item>
+        <item name="android:hyphenationFrequency">none</item>
+    </style>
+    <style name="style_7f140120" parent="@style/style_7f140010">
+        <item name="attr_7f0400ad">?android:colorBackgroundFloating</item>
+    </style>
+    <style name="style_7f1402ec" parent="@style/style_7f140080">
+        <item name="attr_7f04011b">@color/color_7f060222</item>
+    </style>
+    <style name="style_7f1402fd">
+        <item name="attr_7f04011b">@color/color_7f060092</item>
+    </style>
+    <style name="style_7f1402fe">
+        <item name="attr_7f04011b">@color/color_7f06007f</item>
+    </style>
+    <style name="style_7f140323" parent="@style/style_7f140084">
+        <item name="attr_7f04011b">@color/color_7f060222</item>
+    </style>
+    <style name="style_7f1403e8" parent="@style/style_7f140104">
+        <item name="android:background">@drawable/drawable_7f08011e</item>
+    </style>
+    <style name="style_7f1403ea" parent="@style/style_7f140105">
+        <item name="android:background">@drawable/drawable_7f08011d</item>
+    </style>
+    <style name="style_7f1403eb" parent="@style/style_7f140106">
+        <item name="android:background">@drawable/drawable_7f08011e</item>
+    </style>
+    <style name="style_7f140442" parent="@style/style_7f140110">
+        <item name="android:background">@drawable/drawable_7f080122</item>
+    </style>
+    <style name="style_7f1404aa" parent="@style/style_7f140118">
+        <item name="android:popupBackground">?attr_7f04046d</item>
+        <item name="android:popupElevation">8.0dip</item>
+    </style>
+    <style name="style_7f1404ab" parent="@style/style_7f140119">
+        <item name="android:popupBackground">?attr_7f04046d</item>
+        <item name="android:popupElevation">8.0dip</item>
+    </style>
+    <style name="style_7f1400b0" parent="@style/style_7f1400ae">
+        <item name="attr_7f040003">?android:actionBarItemBackground</item>
+        <item name="attr_7f040010">?android:actionMenuTextAppearance</item>
+        <item name="attr_7f040011">?android:actionMenuTextColor</item>
+        <item name="attr_7f040021">?android:actionOverflowButtonStyle</item>
+        <item name="attr_7f040170">@drawable/drawable_7f08003b</item>
+        <item name="attr_7f040487">?android:ratingBarStyleIndicator</item>
+        <item name="attr_7f040488">?android:ratingBarStyleSmall</item>
+    </style>
+    <style name="style_7f1400b1" parent="@style/style_7f1400af">
+        <item name="attr_7f040003">?android:actionBarItemBackground</item>
+        <item name="attr_7f040010">?android:actionMenuTextAppearance</item>
+        <item name="attr_7f040011">?android:actionMenuTextColor</item>
+        <item name="attr_7f040021">?android:actionOverflowButtonStyle</item>
+        <item name="attr_7f040170">@drawable/drawable_7f08003b</item>
+        <item name="attr_7f040487">?android:ratingBarStyleIndicator</item>
+        <item name="attr_7f040488">?android:ratingBarStyleSmall</item>
+    </style>
+</resources>

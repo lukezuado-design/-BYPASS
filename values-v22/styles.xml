@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="style_7f14004b" parent="@style/style_7f1400ae" />
+    <style name="style_7f140052" parent="@style/style_7f1400af" />
+    <style name="style_7f1400ae" parent="@style/style_7f1400a2">
+        <item name="attr_7f04001c">?android:actionModeShareDrawable</item>
+        <item name="attr_7f040216">?android:editTextBackground</item>
+    </style>
+    <style name="style_7f1400af" parent="@style/style_7f1400a4">
+        <item name="attr_7f04001c">?android:actionModeShareDrawable</item>
+        <item name="attr_7f040216">?android:editTextBackground</item>
+    </style>
+</resources>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="style_7f14004b" parent="@style/style_7f1400b6" />
+    <style name="style_7f140052" parent="@style/style_7f1400b7" />
+    <style name="style_7f1400fb" parent="@style/style_7f1400b8" />
+    <style name="style_7f14039e" parent="@android:style/Widget">
+        <item name="android:background">?attr_7f040135</item>
+        <item name="android:stateListAnimator">@animator/MT_Bin</item>
+        <item name="android:touchscreenBlocksFocus">true</item>
+        <item name="android:keyboardNavigationCluster">true</item>
+    </style>
+    <style name="style_7f1400b6" parent="@style/style_7f1400b0">
+        <item name="attr_7f04011c">?android:colorError</item>
+    </style>
+    <style name="style_7f1400b7" parent="@style/style_7f1400b1">
+        <item name="attr_7f04011c">?android:colorError</item>
+    </style>
+    <style name="style_7f1400b8" parent="@style/style_7f1400c2">
+        <item name="android:touchscreenBlocksFocus">true</item>
+        <item name="android:keyboardNavigationCluster">true</item>
+    </style>
+</resources>

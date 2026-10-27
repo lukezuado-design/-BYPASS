@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="style_7f1403a6" parent="@style/style_7f1400fd">
+        <item name="attr_7f04058b">id_7f0a00bc</item>
+        <item name="attr_7f040598">id_7f0a014e</item>
+    </style>
+</resources>

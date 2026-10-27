@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="style_7f14003a" parent="@android:style/TextAppearance.Material.Widget.Button.Borderless.Colored" />
+    <style name="style_7f14003b" parent="@android:style/TextAppearance.Material.Widget.Button.Colored" />
+    <style name="style_7f14005a" parent="@style/style_7f1400b2" />
+    <style name="style_7f14005c" parent="@style/style_7f1400b3" />
+    <style name="style_7f140060" parent="@style/style_7f1400b4" />
+    <style name="style_7f140062" parent="@style/style_7f1400b5" />
+    <style name="style_7f140092" parent="@style/style_7f140093">
+        <item name="android:colorBackground">@color/color_7f060046</item>
+        <item name="android:buttonBarButtonStyle">?attr_7f04009c</item>
+        <item name="android:timePickerDialogTheme">@style/style_7f140339</item>
+        <item name="android:datePickerDialogTheme">@style/style_7f140339</item>
+        <item name="android:contextPopupMenuStyle">@style/style_7f1404aa</item>
+        <item name="attr_7f040004">@style/style_7f140336</item>
+        <item name="attr_7f040005">@dimen/dimen_7f070328</item>
+        <item name="attr_7f040007">@style/style_7f140457</item>
+        <item name="attr_7f04000b">@style/style_7f14032d</item>
+        <item name="attr_7f04001e">@style/style_7f140458</item>
+        <item name="attr_7f040022">@style/style_7f1404ac</item>
+        <item name="attr_7f04002e">@style/style_7f14033a</item>
+        <item name="attr_7f040039">@style/style_7f14045b</item>
+        <item name="attr_7f040081">@style/style_7f14046d</item>
+        <item name="attr_7f040084">@style/style_7f140464</item>
+        <item name="attr_7f040085">@style/style_7f140335</item>
+        <item name="attr_7f04009c">@style/style_7f14046d</item>
+        <item name="attr_7f0400cd">@style/style_7f140481</item>
+        <item name="attr_7f040115">?attr_7f04013e</item>
+        <item name="attr_7f04011c">@color/color_7f060047</item>
+        <item name="attr_7f040135">@color/color_7f06004d</item>
+        <item name="attr_7f040137">@color/color_7f06004e</item>
+        <item name="attr_7f040288">@style/style_7f140486</item>
+        <item name="attr_7f040376">@style/style_7f1404ab</item>
+        <item name="attr_7f0403bf">@style/style_7f14033e</item>
+        <item name="attr_7f0403c8">@style/style_7f140346</item>
+        <item name="attr_7f0403d2">@style/style_7f14048a</item>
+        <item name="attr_7f0403d3">@style/style_7f140345</item>
+        <item name="attr_7f0403ea">@style/style_7f14034c</item>
+        <item name="attr_7f04043a">@style/style_7f1404a8</item>
+        <item name="attr_7f04046e">@style/style_7f1404a9</item>
+        <item name="attr_7f040484">@style/style_7f140482</item>
+        <item name="attr_7f04052d">@style/style_7f140472</item>
+        <item name="attr_7f04052e">@style/style_7f1404b0</item>
+        <item name="attr_7f04052f">@style/style_7f1404b2</item>
+        <item name="attr_7f040587">@style/style_7f140483</item>
+        <item name="attr_7f0405a2">@style/style_7f1404b3</item>
+        <item name="attr_7f0405c1">?attr_7f0405cb</item>
+        <item name="attr_7f0405ca">?attr_7f0405cb</item>
+        <item name="attr_7f0405db">@style/style_7f1404bb</item>
+        <item name="attr_7f0405dc">@style/style_7f1404bd</item>
+        <item name="attr_7f0405dd">@style/style_7f1404ba</item>
+        <item name="attr_7f0405df">@style/style_7f1404bf</item>
+        <item name="attr_7f0405e0">@style/style_7f1404c1</item>
+        <item name="attr_7f0405e1">@style/style_7f1404be</item>
+        <item name="attr_7f0405e2">@style/style_7f1404ba</item>
+        <item name="attr_7f040622">@style/style_7f1404cd</item>
+        <item name="attr_7f04066f">com.google.android.material.theme.MaterialComponentsViewInflater</item>
+    </style>
+    <style name="style_7f140094" parent="@style/style_7f140095">
+        <item name="android:colorBackground">@color/color_7f060046</item>
+        <item name="android:contextPopupMenuStyle">@style/style_7f1404aa</item>
+        <item name="attr_7f040004">@style/style_7f140336</item>
+        <item name="attr_7f040005">@dimen/dimen_7f070328</item>
+        <item name="attr_7f040007">@style/style_7f140457</item>
+        <item name="attr_7f04000b">@style/style_7f14032d</item>
+        <item name="attr_7f04001e">@style/style_7f140458</item>
+        <item name="attr_7f040022">@style/style_7f1404ac</item>
+        <item name="attr_7f04002e">@style/style_7f14033a</item>
+        <item name="attr_7f040039">@style/style_7f14045b</item>
+        <item name="attr_7f040081">@style/style_7f14046d</item>
+        <item name="attr_7f040084">@style/style_7f140464</item>
+        <item name="attr_7f04009c">@style/style_7f14046f</item>
+        <item name="attr_7f0400cd">@style/style_7f140481</item>
+        <item name="attr_7f040115">?attr_7f04013e</item>
+        <item name="attr_7f04011c">@color/color_7f060047</item>
+        <item name="attr_7f040135">@color/color_7f06004d</item>
+        <item name="attr_7f040137">@color/color_7f06004e</item>
+        <item name="attr_7f04013e">@color/color_7f060050</item>
+        <item name="attr_7f040288">@style/style_7f140486</item>
+        <item name="attr_7f040376">@style/style_7f1404ab</item>
+        <item name="attr_7f0403bf">@style/style_7f14033e</item>
+        <item name="attr_7f04043a">@style/style_7f1404a8</item>
+        <item name="attr_7f04046e">@style/style_7f1404a9</item>
+        <item name="attr_7f040484">@style/style_7f140482</item>
+        <item name="attr_7f04052d">@style/style_7f140472</item>
+        <item name="attr_7f04052e">@style/style_7f1404b0</item>
+        <item name="attr_7f04052f">@style/style_7f1404b2</item>
+        <item name="attr_7f040587">@style/style_7f140483</item>
+        <item name="attr_7f0405a2">@style/style_7f1404b3</item>
+        <item name="attr_7f0405c1">?attr_7f0405cb</item>
+        <item name="attr_7f0405ca">?attr_7f0405cb</item>
+        <item name="attr_7f0405db">@style/style_7f1404bb</item>
+        <item name="attr_7f0405dc">@style/style_7f1404bd</item>
+        <item name="attr_7f0405dd">@style/style_7f1404ba</item>
+        <item name="attr_7f0405df">@style/style_7f1404bf</item>
+        <item name="attr_7f0405e0">@style/style_7f1404c1</item>
+        <item name="attr_7f0405e1">@style/style_7f1404be</item>
+        <item name="attr_7f0405e2">@style/style_7f1404ba</item>
+        <item name="attr_7f040622">@style/style_7f1404cd</item>
+        <item name="attr_7f04066f">com.google.android.material.theme.MaterialComponentsViewInflater</item>
+    </style>
+    <style name="style_7f140096" parent="@style/style_7f140097">
+        <item name="android:colorBackground">@color/color_7f060053</item>
+        <item name="android:buttonBarButtonStyle">?attr_7f04009c</item>
+        <item name="android:timePickerDialogTheme">@style/style_7f140339</item>
+        <item name="android:datePickerDialogTheme">@style/style_7f140339</item>
+        <item name="android:contextPopupMenuStyle">@style/style_7f1404aa</item>
+        <item name="attr_7f040004">@style/style_7f14033c</item>
+        <item name="attr_7f040005">@dimen/dimen_7f070328</item>
+        <item name="attr_7f040007">@style/style_7f140487</item>
+        <item name="attr_7f04001e">@style/style_7f140458</item>
+        <item name="attr_7f040022">@style/style_7f1404ac</item>
+        <item name="attr_7f04002e">@style/style_7f14033a</item>
+        <item name="attr_7f040039">@style/style_7f140459</item>
+        <item name="attr_7f040081">@style/style_7f14046d</item>
+        <item name="attr_7f040084">@style/style_7f140464</item>
+        <item name="attr_7f040085">@style/style_7f140335</item>
+        <item name="attr_7f04009c">@style/style_7f14046d</item>
+        <item name="attr_7f0400cd">@style/style_7f140481</item>
+        <item name="attr_7f040115">?attr_7f04013e</item>
+        <item name="attr_7f04011c">@color/color_7f060054</item>
+        <item name="attr_7f040135">@color/color_7f06005a</item>
+        <item name="attr_7f040137">@color/color_7f06005b</item>
+        <item name="attr_7f040288">@style/style_7f140486</item>
+        <item name="attr_7f040376">@style/style_7f1404ab</item>
+        <item name="attr_7f0403bf">@style/style_7f14033e</item>
+        <item name="attr_7f0403c8">@style/style_7f140346</item>
+        <item name="attr_7f0403d2">@style/style_7f14048a</item>
+        <item name="attr_7f0403d3">@style/style_7f140345</item>
+        <item name="attr_7f0403ea">@style/style_7f14034c</item>
+        <item name="attr_7f04043a">@style/style_7f1404a8</item>
+        <item name="attr_7f04046e">@style/style_7f1404a9</item>
+        <item name="attr_7f040484">@style/style_7f140482</item>
+        <item name="attr_7f04052d">@style/style_7f140472</item>
+        <item name="attr_7f04052e">@style/style_7f1404b0</item>
+        <item name="attr_7f04052f">@style/style_7f1404b2</item>
+        <item name="attr_7f040587">@style/style_7f140483</item>
+        <item name="attr_7f0405a2">@style/style_7f1404b3</item>
+        <item name="attr_7f0405c1">?attr_7f0405cb</item>
+        <item name="attr_7f0405ca">?attr_7f0405cb</item>
+        <item name="attr_7f0405db">@style/style_7f1404bb</item>
+        <item name="attr_7f0405dc">@style/style_7f1404bd</item>
+        <item name="attr_7f0405dd">@style/style_7f1404ba</item>
+        <item name="attr_7f0405df">@style/style_7f1404bf</item>
+        <item name="attr_7f0405e0">@style/style_7f1404c1</item>
+        <item name="attr_7f0405e1">@style/style_7f1404be</item>
+        <item name="attr_7f0405e2">@style/style_7f1404ba</item>
+        <item name="attr_7f040622">@style/style_7f1404cd</item>
+        <item name="attr_7f04066f">com.google.android.material.theme.MaterialComponentsViewInflater</item>
+    </style>
+    <style name="style_7f140099" parent="@style/style_7f14009a">
+        <item name="android:colorBackground">@color/color_7f060053</item>
+        <item name="android:contextPopupMenuStyle">@style/style_7f1404aa</item>
+        <item name="attr_7f040004">@style/style_7f14033c</item>
+        <item name="attr_7f040005">@dimen/dimen_7f070328</item>
+        <item name="attr_7f040007">@style/style_7f140487</item>
+        <item name="attr_7f04001e">@style/style_7f140458</item>
+        <item name="attr_7f040022">@style/style_7f1404ac</item>
+        <item name="attr_7f04002e">@style/style_7f14033a</item>
+        <item name="attr_7f040039">@style/style_7f140459</item>
+        <item name="attr_7f040081">@style/style_7f14046d</item>
+        <item name="attr_7f040084">@style/style_7f140464</item>
+        <item name="attr_7f04009c">@style/style_7f14046f</item>
+        <item name="attr_7f0400cd">@style/style_7f140481</item>
+        <item name="attr_7f040115">?attr_7f04013e</item>
+        <item name="attr_7f04011c">@color/color_7f060054</item>
+        <item name="attr_7f040135">@color/color_7f06005a</item>
+        <item name="attr_7f040137">@color/color_7f06005b</item>
+        <item name="attr_7f04013e">@color/color_7f06005d</item>
+        <item name="attr_7f040288">@style/style_7f140486</item>
+        <item name="attr_7f040376">@style/style_7f1404ab</item>
+        <item name="attr_7f0403bf">@style/style_7f14033e</item>
+        <item name="attr_7f04043a">@style/style_7f1404a8</item>
+        <item name="attr_7f04046e">@style/style_7f1404a9</item>
+        <item name="attr_7f040484">@style/style_7f140482</item>
+        <item name="attr_7f04052d">@style/style_7f140472</item>
+        <item name="attr_7f04052e">@style/style_7f1404b0</item>
+        <item name="attr_7f04052f">@style/style_7f1404b2</item>
+        <item name="attr_7f040587">@style/style_7f140483</item>
+        <item name="attr_7f0405a2">@style/style_7f1404b3</item>
+        <item name="attr_7f0405c1">?attr_7f0405cb</item>
+        <item name="attr_7f0405ca">?attr_7f0405cb</item>
+        <item name="attr_7f0405db">@style/style_7f1404bb</item>
+        <item name="attr_7f0405dc">@style/style_7f1404bd</item>
+        <item name="attr_7f0405dd">@style/style_7f1404ba</item>
+        <item name="attr_7f0405df">@style/style_7f1404bf</item>
+        <item name="attr_7f0405e0">@style/style_7f1404c1</item>
+        <item name="attr_7f0405e1">@style/style_7f1404be</item>
+        <item name="attr_7f0405e2">@style/style_7f1404ba</item>
+        <item name="attr_7f040622">@style/style_7f1404cd</item>
+        <item name="attr_7f04066f">com.google.android.material.theme.MaterialComponentsViewInflater</item>
+    </style>
+    <style name="style_7f14022b" parent="@style/style_7f14022a" />
+    <style name="style_7f14022e" parent="@style/style_7f140229" />
+    <style name="style_7f140230" parent="@style/style_7f14022f" />
+    <style name="style_7f140232" parent="@style/style_7f140231" />
+    <style name="style_7f1400b2" parent="@style/style_7f14008a">
+        <item name="android:contextPopupMenuStyle">@style/style_7f14042c</item>
+    </style>
+    <style name="style_7f1400b3" parent="@style/style_7f14008c">
+        <item name="android:contextPopupMenuStyle">@style/style_7f14042c</item>
+    </style>
+    <style name="style_7f1400b4" parent="@style/style_7f14008e">
+        <item name="android:contextPopupMenuStyle">@style/style_7f14042c</item>
+    </style>
+    <style name="style_7f1400b5" parent="@style/style_7f140090">
+        <item name="android:contextPopupMenuStyle">@style/style_7f14042c</item>
+    </style>
+</resources>
