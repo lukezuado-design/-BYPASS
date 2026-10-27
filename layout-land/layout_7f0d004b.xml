@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.button.MaterialButtonToggleGroup
+    android:orientation="horizontal"
+    android:id="@id/material_clock_period_toggle"
+    android:visibility="gone"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    app:attr_7f0400cf="@id/id_7f0a01a3"
+    app:attr_7f0404e7="true"
+    app:attr_7f040513="true"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <Button
+        android:id="@id/id_7f0a01a3"
+        android:layout_width="0.0dip"
+        android:text="@string/string_7f13010e"
+        android:layout_weight="1.0"
+        android:insetTop="4.0dip"
+        android:insetBottom="4.0dip"
+        style="?attr_7f0403c3" />
+    <Button
+        android:id="@id/id_7f0a01a4"
+        android:layout_width="0.0dip"
+        android:text="@string/string_7f130112"
+        android:layout_weight="1.0"
+        android:insetTop="4.0dip"
+        android:insetBottom="4.0dip"
+        style="?attr_7f0403c3" />
+</com.google.android.material.button.MaterialButtonToggleGroup>

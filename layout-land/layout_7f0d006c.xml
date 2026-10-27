@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+    android:layout_width="wrap_content"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:layout_gravity="start"
+        android:orientation="vertical"
+        android:id="@id/id_7f0a01cf"
+        android:paddingLeft="@dimen/dimen_7f0702a1"
+        android:paddingRight="@dimen/dimen_7f0702a1"
+        android:paddingBottom="@dimen/dimen_7f0702a1"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:paddingStart="@dimen/dimen_7f0702a1"
+        android:paddingEnd="@dimen/dimen_7f0702a1"
+        style="?attr_7f0403cc">
+        <FrameLayout
+            android:id="@id/id_7f0a01d1"
+            android:paddingLeft="@dimen/dimen_7f0702a7"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:layout_width="@dimen/dimen_7f0702aa"
+            android:layout_height="0.0dip"
+            android:layout_weight="1.0"
+            android:paddingStart="@dimen/dimen_7f0702a7">
+            <include
+                layout="@layout/layout_7f0d006f" />
+            <include
+                layout="@layout/layout_7f0d006e" />
+        </FrameLayout>
+        <include
+            layout="@layout/layout_7f0d0070" />
+    </LinearLayout>
+    <View
+        android:layout_gravity="end"
+        android:layout_width="@dimen/dimen_7f0702a3"
+        android:layout_height="fill_parent"
+        style="?attr_7f0403cb" />
+</merge>

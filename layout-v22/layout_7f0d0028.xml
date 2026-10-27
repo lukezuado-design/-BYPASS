@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.internal.NavigationMenuItemView
+    android:paddingLeft="?attr_7f04037b"
+    android:paddingRight="?attr_7f04037c"
+    android:focusable="true"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:foreground="?attr_7f0404e5"
+    android:minHeight="?attr_7f040379"
+    android:defaultFocusHighlightEnabled="false"
+    xmlns:android="http://schemas.android.com/apk/res/android" />

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:paddingBottom="2.0dip"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:accessibilityPaneTitle="@string/string_7f130113"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView
+        android:id="@id/id_7f0a0162"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16.0dip"
+        android:text="@string/string_7f130113"
+        android:importantForAccessibility="no"
+        android:layout_marginStart="24.0dip"
+        app:attr_7f040349="id_7f0a0205"
+        app:attr_7f04034d="id_7f0a0205"
+        style="?attr_7f0403eb" />
+    <com.google.android.material.timepicker.TimePickerView
+        android:id="@id/id_7f0a01b0"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="24.0dip"
+        android:layout_marginTop="@dimen/dimen_7f070249"
+        android:layout_marginRight="24.0dip"
+        android:layout_marginBottom="@dimen/dimen_7f070248"
+        app:attr_7f040330="@id/id_7f0a01ae"
+        app:attr_7f040335="id_7f0a0205"
+        app:attr_7f040349="id_7f0a0205"
+        app:attr_7f04034d="id_7f0a0205" />
+    <ViewStub
+        android:id="@id/id_7f0a01ab"
+        android:layout="@layout/layout_7f0d004f"
+        android:inflatedId="@id/id_7f0a01ab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="24.0dip"
+        android:layout_marginTop="44.0dip"
+        android:layout_marginRight="24.0dip"
+        android:layout_marginBottom="@dimen/dimen_7f070248"
+        app:attr_7f040330="@id/id_7f0a01ae"
+        app:attr_7f040335="id_7f0a0205"
+        app:attr_7f040349="id_7f0a0205"
+        app:attr_7f04034d="id_7f0a0205" />
+    <com.google.android.material.button.MaterialButton
+        android:id="@id/id_7f0a01ae"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12.0dip"
+        app:attr_7f04032f="id_7f0a0205"
+        app:attr_7f040349="id_7f0a0205"
+        style="?attr_7f0402e2" />
+    <Button
+        android:id="@id/id_7f0a01ac"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2.0dip"
+        android:minWidth="72.0dip"
+        android:text="@string/string_7f130151"
+        android:layout_marginEnd="8.0dip"
+        app:attr_7f040336="@id/id_7f0a01af"
+        app:attr_7f04034d="@id/id_7f0a01ae"
+        style="?attr_7f040081" />
+    <Button
+        android:id="@id/id_7f0a01af"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2.0dip"
+        android:minWidth="64.0dip"
+        android:text="@string/string_7f130152"
+        android:layout_marginEnd="8.0dip"
+        app:attr_7f040335="id_7f0a0205"
+        app:attr_7f04034d="@id/id_7f0a01ae"
+        style="?attr_7f040081" />
+</androidx.constraintlayout.widget.ConstraintLayout>
