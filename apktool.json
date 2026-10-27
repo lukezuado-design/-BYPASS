@@ -1,0 +1,53 @@
+{
+  "apkFileName": "BYPASS_MUMU_v3.8.0(1)_src.apk",
+  "PackageInfo": {
+    "forcedPackageId": "127",
+    "renameManifestPackage": null
+  },
+  "doNotCompress": [
+    "resources.arsc",
+    "png",
+    "jpg",
+    "res/raw/MT_Bin",
+    "res/raw/raw_7f120003",
+    "assets/dexopt/baseline.prof",
+    "assets/dexopt/baseline.profm"
+  ],
+  "compressionType": false,
+  "sparseResources": false,
+  "version": "2.4.0-261014",
+  "sharedLibrary": false,
+  "VersionInfo": {
+    "versionName": "3.8.0",
+    "versionCode": "1"
+  },
+  "UsesFramework": {
+    "ids": [1],
+    "tag": null
+  },
+  "unknownFiles": {
+    "play-services-basement.properties": "8",
+    "res/color/dmbttft3.efy": "8",
+    "org/threeten/bp/format/ChronologyText.properties": "8",
+    "DebugProbesKt.bin": "8",
+    "play-services-ads-identifier.properties": "8",
+    "junit/runner/logo.gif": "0",
+    "junit/runner/smalllogo.gif": "0",
+    "play-services-tasks.properties": "8",
+    "res/color/dmbttft.efy": "8",
+    "play-services-base.properties": "8",
+    "res/color/dmbttft2.efy": "8",
+    "kotlin-tooling-metadata.json": "8",
+    "okhttp3/internal/publicsuffix/NOTICE": "8",
+    "res/color/bqqmjdbujpo": "8",
+    "LICENSE-junit.txt": "8",
+    "okhttp3/internal/publicsuffix/publicsuffixes.gz": "0"
+  },
+  "apkFilePath": "/data/app/~~ixmkxFs9KuITeH-ttqnLkA==/com.shadow.paidhay-KJWxqC8UtXpi5EwazNksag==/base.apk",
+  "compactEntries": false,
+  "isFrameworkApk": false,
+  "sdkInfo": {
+    "minSdkVersion": "21",
+    "targetSdkVersion": "28"
+  }
+}

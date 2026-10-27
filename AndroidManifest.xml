@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest
+    android:compileSdkVersion="37"
+    android:compileSdkVersionCodename="17"
+    package="com.shadow.paidhay"
+    platformBuildVersionCode="37"
+    platformBuildVersionName="17"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Permite que a app leia conteúdos do armazenamento partilhado. -->
+    <uses-permission
+        android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission
+        android:name="android.permission.READ_PRIVILEGED_PHONE_STATE" />
+    <uses-permission
+        android:name="android.permission.ACCESS_SUPERUSER" />
+    <uses-permission
+        android:name="android.permission.ACCESS_SUPERUSER" />
+    <uses-permission
+        android:name="android.permission.ACCESS_SUPERUSER" />
+    <!-- Permite à app obter o código, os dados e o tamanhos de cache da mesma -->
+    <uses-permission
+        android:name="android.permission.GET_PACKAGE_SIZE" />
+    <uses-permission
+        android:name="android.permission.PACKAGE_USAGE_STATS" />
+    <!-- Permite que a app aceda às funcionalidades de telefone do dispositivo. Esta autorização permite que a app determine o número de telefone e IDs do dispositivo, se alguma chamada está ativa e qual o número remoto ligado por uma chamada. -->
+    <uses-permission
+        android:name="android.permission.READ_PHONE_STATE" />
+    <!-- Permite que a app crie ligações de rede e utilize protocolos de rede personalizados. O navegador e outras aplicações fornecem meios para enviar dados para a Internet, pelo que esta autorização não é necessária para enviar dados para a Internet. -->
+    <uses-permission
+        android:name="android.permission.INTERNET" />
+    <!-- Permite que a app visualize informações acerca das ligações de rede como, por exemplo, que redes que existem e estão ligadas. -->
+    <uses-permission
+        android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <!-- Permite que a app se ligue a dispositivos Bluetooth sincronizados -->
+    <uses-permission
+        android:name="android.permission.BLUETOOTH_CONNECT" />
+    <!-- Permite à app modificar os dados das definições do sistema. As aplicações maliciosas podem corromper a configuração do seu sistema. -->
+    <uses-permission
+        android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission
+        android:name="android.permission.WRITE_SECURE_SETTINGS" />
+    <uses-permission
+        android:name="android.permission.MANAGE_EXTERNAL_STORAGE" />
+    <!-- Permite que a apl. escreva conteúd. do armazen. partilhado. -->
+    <uses-permission
+        android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission
+        android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <!-- Permite a uma app ver todos os pacotes instalados. -->
+    <uses-permission
+        android:name="android.permission.QUERY_ALL_PACKAGES" />
+    <uses-permission
+        android:name="android.permission.FACTORY_TEST" />
+    <queries>
+        <package
+            android:name="com.tencent.ig" />
+        <package
+            android:name="com.pubg.krmobile" />
+        <package
+            android:name="com.vng.pubgmobile" />
+        <package
+            android:name="com.rekoo.pubgm" />
+        <package
+            android:name="com.pubg.imobile" />
+    </queries>
+    <uses-permission
+        android:name="com.shadow.paidhay_com.google.android.gms.permission.AD_ID" />
+    <permission
+        android:name="com.shadow.paidhay.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+        android:protectionLevel="signature" />
+    <uses-permission
+        android:name="com.shadow.paidhay.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+    <application
+        android:theme="@style/style_7f140292"
+        android:label="@string/string_7f13008a"
+        android:icon="@drawable/drawable_7f080113"
+        android:name="mt.modder.hub.MTApplication"
+        android:allowBackup="true"
+        android:supportsRtl="true"
+        android:fullBackupContent="@xml/MT_Bin"
+        android:roundIcon="@drawable/drawable_7f080113"
+        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+        android:dataExtractionRules="@xml/xml_7f160001">
+        <activity
+            android:name="com.as.paidhax.CrashActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.as.paidhax.Servers.kotlin.MainActivity"
+            android:exported="false" />
+        <activity
+            android:theme="@style/style_splash_fullscreen"
+            android:name="com.as.paidhax.Splash"
+            android:exported="true">
+            <intent-filter>
+                <action
+                    android:name="android.intent.action.MAIN" />
+                <category
+                    android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.as.paidhax.SecondActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.as.paidhax.MainActivity"
+            android:exported="true" />
+        <service
+            android:name="com.as.paidhax.BackgroundIntentService"
+            android:permission="android.permission.BIND_JOB_SERVICE"
+            android:exported="false" />
+        <activity
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"
+            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+            android:exported="false" />
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/integer_7f0b000a" />
+        <provider
+            android:name="androidx.startup.InitializationProvider"
+            android:exported="false"
+            android:authorities="com.shadow.paidhay.androidx-startup">
+            <meta-data
+                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+                android:value="androidx.startup" />
+            <meta-data
+                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+                android:value="androidx.startup" />
+            <meta-data
+                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+                android:value="androidx.startup" />
+        </provider>
+        <receiver
+            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+            android:permission="android.permission.DUMP"
+            android:enabled="true"
+            android:exported="true"
+            android:directBootAware="false">
+            <intent-filter>
+                <action
+                    android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+            </intent-filter>
+            <intent-filter>
+                <action
+                    android:name="androidx.profileinstaller.action.SKIP_FILE" />
+            </intent-filter>
+            <intent-filter>
+                <action
+                    android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+            </intent-filter>
+            <intent-filter>
+                <action
+                    android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+            </intent-filter>
+        </receiver>
+    </application>
+</manifest>

@@ -1,0 +1,249 @@
+am force-stop com.vng.pubgmobile
+clear
+settings put secure android_id KINGx$RANDOM$RANDOM
+content insert --uri content://settings/secure --bind name:s:android_id --bind value:s:KINGx$RANDOM$RANDOM
+setprop ro.mac_address KINGx$RANDOM$RANDOM
+setprop ro.product.device KINGx$RANDOM$RANDOM
+setprop ro.product.brand KINGx$RANDOM$RANDOM
+setprop ro.product.model KINGx$RANDOM$RANDOM
+setprop ro.product.name KINGx$RANDOM$RANDOM
+setprop ro.product.manufacturer KINGx$RANDOM$RANDOM
+setprop ro.android_id KINGx$RANDOM$RANDOM
+setprop net.hostname KINGx$RANDOM$RANDOM
+setprop gaid KINGx$RANDOM$RANDOM
+setprop android.device.id KINGx$RANDOM$RANDOM
+setprop ro.serialno KINGx$RANDOM$RANDOM
+setprop ro.runtime.firstboot KINGx$RANDOM$RANDOM
+rm -rf /data/data/com.vng.pubgmobile/shared_prefs
+#mkdir /data/data/com.vng.pubgmobile/shared_prefs
+#chmod 777 /data/data/com.vng.pubgmobile/shared_prefs
+rm -rf /data/data/com.vng.pubgmobile/files
+#touch /data/data/com.vng.pubgmobile/files
+GUEST="/data/data/com.vng.pubgmobile/shared_prefs/device_id.xml"
+rm -rf $GUEST
+echo "<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<map>
+    <string name=\"random\"></string>
+    <string name=\"install\"></string>
+    <string name=\"uuid\">$RANDOM$RANDOM-$RANDOM-$RANDOM-$RANDOM-$RANDOM$RANDOM$RANDOM</string>
+</map>" > $GUEST
+rm -rf /data/data/com.vng.pubgmobile/databases
+rm -rf /data/media/0/Android/data/com.vng.pubgmobile/files/login-identifier.txt
+rm -rf /data/media/0/Android/data/com.vng.pubgmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Intermediate
+#touch /data/media/0/Android/data/com.vng.pubgmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Intermediate
+rm -rf /data/media/0/Android/data/com.vng.pubgmobile/files/TGPA
+#touch /data/media/0/Android/data/com.vng.pubgmobile/files/TGPA
+rm -rf /data/media/0/Android/data/com.vng.pubgmobile/files/ProgramBinaryCache
+#touch /data/media/0/Android/data/com.vng.pubgmobile/files/ProgramBinaryCache
+iptables -I OUTPUT -d cloud.vmp.onezapp.com -j REJECT
+iptables -I INPUT -s cloud.vmp.onezapp.com -j REJECT
+rm -rf /data/media/0/Android/data/com.vng.pubgmobile/cache
+rm -rf /data/media/0/Android/data/com.vng.pubgmobile/files/log
+rm -rf /data/media/0/Android/data/com.vng.pubgmobile/files/ProgramBinaryCache
+rm -rf /data/media/0/Android/data/com.vng.pubgmobile/files/AsyncCompile
+rm -rf /data/media/0/Android/data/com.vng.pubgmobile/files/ca-bundle.pem
+rm -rf /data/media/0/Android/data/com.vng.pubgmobile/files/cacheFile.txt
+rm -rf /data/media/0/Android/data/com.vng.pubgmobile/files/TGPA
+rm -rf /data/data/com.vng.pubgmobile/app_webview_com.vng.pubgmobile
+
+
+
+
+rm -rf /storage/emulated/0/Android/data/com.vng.pubgmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/SyncLoadInfo.txt
+rm -rf /storage/emulated/0/Android/data/com.vng.pubgmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/coverversion.ini
+rm -rf /storage/emulated/0/Android/data/com.vng.pubgmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/VoiceBin
+rm -rf /storage/emulated/0/Android/data/com.vng.pubgmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/MatchCenterVideo
+rm -rf /storage/emulated/0/Android/data/com.vng.pubgmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/LightData
+rm -rf /storage/emulated/0/Android/data/com.vng.pubgmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/ImageDownloadMgr
+rm -rf /storage/emulated/0/Android/data/com.vng.pubgmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Gamelet
+rm -rf /storage/emulated/0/Android/data/com.vng.pubgmobile/files/iMSDK
+rm -rf /storage/emulated/0/Android/data/com.vng.pubgmobile/files/ProgramIncompatible
+rm -rf /storage/emulated/0/Android/data/.zzz
+rm -rf /storage/emulated/0/Android/.zzz
+
+rm -rf /storage/emulated/0/centauri
+rm -rf /storage/emulated/0/CentauriOversea
+rm -rf /storage/emulated/0/Android/.system_android_l2 
+rm -rf /data/data/com.vng.pubgmobile/cache/* 
+rm -rf /data/data/com.vng.pubgmobile/app_flutter
+rm -rf /data/data/com.vng.pubgmobile-1/cache/* 
+rm -rf /data/data/com.vng.pubgmobile/code_cache/* 
+rm -rf /data/data/com.vng.pubgmobile-1/code_cache/* 
+rm -rf /data/data/com.vng.pubgmobile/shared_prefs/* 
+rm -rf /data/data/com.vng.pubgmobile-1/shared_prefs/* 
+rm -rf /data/data/com.vng.pubgmobile/databases/* 
+rm -rf /data/data/com.vng.pubgmobile-1/databases/* 
+rm -rf /data/data/com.vng.pubgmobile/files/.system_android_l2 
+rm -rf /data/data/com.vng.pubgmobile-1/files/.system_android_l2 
+rm -rf /storage/emulated/0/Android/data/com.vng.pubgmobile/cache/* 
+rm -rf /storage/emulated/0/Android/data/com.vng.pubgmobile-1/cache/* 
+rm -rf /storage/emulated/0/Android/data/com.vng.pubgmobile/files/.system_android_l2 
+rm -rf /storage/emulated/0/Android/data/com.vng.pubgmobile-1/files/.system_android_l2 
+rm -rf /storage/emulated/0/Android/data/com.vng.pubgmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/SaveGames/*.json 
+rm -rf /storage/emulated/0/Android/data/com.vng.pubgmobile-1/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/SaveGames/*.json
+rm -rf /data/data/com.vng.pubgmobile/no_backup 
+rm -rf /data/data/com.vng.pubgmobile-1/no_backup 
+rm -rf /storage/emulated/0/Android/data/com.vng.pubgmobile/cache 
+rm -rf /storage/emulated/0/Android/data/com.vng.pubgmobile-1/cache 
+rm -rf /storage/emulated/0/Android/data/com.vng.pubgmobile/files/.fff 
+rm -rf /storage/emulated/0/Android/data/com.vng.pubgmobile-1/files/.fff 
+rm -rf /storage/emulated/0/Android/data/com.vng.pubgmobile/files/*.fff 
+rm -rf /storage/emulated/0/Android/data/com.vng.pubgmobile-1/files/*.fff 
+rm -rf /storage/emulated/0/Android/data/com.vng.pubgmobile/files/ca-bundle.pem 
+rm -rf /storage/emulated/0/Android/data/com.vng.pubgmobile-1/files/ca-bundle.pem 
+rm -rf "/storage/emulated/0/Android/data/com.vng.pubgmobile/files/UE4Game/ShadowTrackerExtra/Epic Games" 
+rm -rf "/storage/emulated/0/Android/data/com.vng.pubgmobile-1/files/UE4Game/ShadowTrackerExtra/Epic Games" 
+rm -rf /storage/emulated/0/Android/data/com.vng.pubgmobile/files/login-identifier.txt 
+rm -rf /storage/emulated/0/Android/data/com.vng.pubgmobile-1/files/login-identifier.txt 
+rm -rf /storage/emulated/0/Android/data/com.vng.pubgmobile/files/TGPA 
+rm -rf /storage/emulated/0/Android/data/com.vng.pubgmobile-1/files/TGPA 
+rm -rf /data/data/com.vng.pubgmobile/app_textures 
+rm -rf /data/data/com.vng.pubgmobile-1/app_textures 
+rm -rf /data/app/com.vng.pubgmobile-1/lib/arm/libhelpshiftlistener.so 
+rm -rf /data/media/0/.backups/com.vng.pubgmobile 
+rm -rf /data/media/0/.backups/com.vng.pubgmobile-1 
+rm -rf /storage/emulated/0/.zzz 
+rm -rf /storage/emulated/0/Android/.system_android_12 
+rm -rf /storage/emulated/0/Android/.system_android_l2 
+rm -rf "/storage/emulated/0/Android/data/com.vng.pubgmobile/files/UE4Game/ShadowTrackerExtra/Epic Games/KeyValueStore.ini" 
+rm -rf "/storage/emulated/0/Android/data/com.vng.pubgmobile-1/files/UE4Game/ShadowTrackerExtra/Epic Games/KeyValueStore.ini" 
+rm -rf /data/data/com.vng.pubgmobile/code_cache 
+rm -rf /data/data/com.vng.pubgmobile-1/code_cache 
+rm -rf /data/data/com.vng.pubgmobile/app_bugly 
+rm -rf /data/data/com.vng.pubgmobile-1/app_bugly 
+rm -rf /data/data/com.vng.pubgmobile/app_crashrecord 
+rm -rf /data/data/com.vng.pubgmobile-1/app_crashrecord 
+rm -rf /data/data/com.vng.pubgmobile/app_databases 
+rm -rf /data/data/com.vng.pubgmobile-1/app_databases 
+rm -rf /data/data/com.vng.pubgmobile/app_webview 
+rm -rf /data/data/com.vng.pubgmobile-1/app_webview 
+rm -rf /data/data/com.vng.pubgmobile/cache 
+rm -rf /data/data/com.vng.pubgmobile-1/cache 
+rm -rf /data/data/com.vng.pubgmobile/databases/* 
+rm -rf /data/data/com.vng.pubgmobile-1/databases/* 
+mv /data/data/com.vng.pubgmobile/shared_prefs/device_id3.xml /data/data/com.vng.pubgmobile/shared_prefs/device_id.xml 
+mv /data/data/com.vng.pubgmobile-1/shared_prefs/device_id3.xml /data/data/com.vng.pubgmobile-1/shared_prefs/device_id.xml
+rm -rf /storage/emulated/0/Android/data/com.vng.pubgmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/logs 
+rm -rf /storage/emulated/0/Android/data/com.vng.pubgmobile-1/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/logs 
+rm -rf /storage/emulated/0/Android/data/com.vng.pubgmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Pandora 
+rm -rf /storage/emulated/0/Android/data/com.vng.pubgmobile-1/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Pandora 
+rm -rf /storage/emulated/0/Android/data/com.vng.pubgmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/PufferEifs1  
+rm -rf /storage/emulated/0/Android/data/com.vng.pubgmobile-1/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/PufferEifs1 
+rm -rf /storage/emulated/0/Android/data/com.vng.pubgmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/PufferEifs0 
+rm -rf /storage/emulated/0/Android/data/com.vng.pubgmobile-1/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/PufferEifs0 
+rm -rf /storage/emulated/0/Android/data/com.vng.pubgmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/PufferTmpDir 
+rm -rf /storage/emulated/0/Android/data/com.vng.pubgmobile-1/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/PufferTmpDir 
+rm -rf /storage/emulated/0/Android/data/com.vng.pubgmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/RoleInfo 
+rm -rf /storage/emulated/0/Android/data/com.vng.pubgmobile-1/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/RoleInfo 
+rm -rf /data/data/com.vng.pubgmobile/databases 
+rm -rf /data/data/com.vng.pubgmobile-1/databases 
+rm -rf /storage/emulated/0/Android/.system_android_l2 
+rm -rf /data/data/com.vng.pubgmobile/files/.system_android_l2 
+rm -rf /data/data/com.vng.pubgmobile-1/files/.system_android_l2 
+rm -rf /storage/emulated/0/Android/data/com.vng.pubgmobile/files/.system_android_l2 
+rm -rf /storage/emulated/0/Android/data/com.vng.pubgmobile-1/files/.system_android_l2 
+rm -rf /storage/emulated/0/Android/data/com.vng.pubgmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Intermediate 
+rm -rf /storage/emulated/0/Android/data/com.vng.pubgmobile-1/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Intermediate 
+rm -rf /storage/emulated/0/Android/data/com.vng.pubgmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/SaveGames 
+rm -rf /storage/emulated/0/Android/data/com.vng.pubgmobile-1/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/SaveGames 
+rm -rf /data/data/com.vng.pubgmobile/app_crashrecord
+rm -rf /data/data/com.vng.pubgmobile/app_crashSight
+rm -rf /data/data/com.vng.pubgmobile/app_tbs
+rm -rf /data/data/com.vng.pubgmobile/cache
+rm -rf /data/data/com.vng.pubgmobile/app_dex
+rm -rf /data/data/com.vng.pubgmobile/app_tga_live_plugin
+rm -rf /data/data/com.vng.pubgmobile/app_pluginlib
+rm -rf /data/data/com.vng.pubgmobile/app_cn.wsds.sdk.game.data
+rm -rf /data/data/com.vng.pubgmobile/code_cache
+rm -rf /data/data/com.vng.pubgmobile/app_msdk
+rm -rf /data/data/com.vng.pubgmobile/app_webviewxchache
+rm -rf /data/data/com.vng.pubgmobile/app_webviewxchachedatabases
+rm -rf /data/data/com.vng.pubgmobile/databases
+rm -rf /data/data/com.vng.pubgmobile/files
+rm -rf /data/data/com.vng.pubgmobile/shared_prefs 
+rm -rf /storage/emulated/0/.zzz
+rm -rf /storage/emulated/0/ASD
+rm -rf /storage/emulated/0/backups
+rm -rf /storage/emulated/0/ldsdk
+rm -rf /storage/emulated/0/Misk
+rm -rf /storage/emulated/0/firmware
+rm -rf /storage/emulated/0/Android/.sys
+rm -rf /storage/emulated/0/.sys
+rm -rf /storage/emulated/0/Android/.zz
+rm -rf /storage/emulated/0/Android/.t
+rm -rf /storage/emulated/0/Android/data/com.tencent.qqlive
+rm -rf /storage/emulated/0/Android/HANYCJLZOEUS_TOKEN2.dat
+rm -rf /storage/emulated/0/Android/nbavmc_unxqbih.dat
+rm -rf /storage/emulated/0/Android/juscrkat.dat
+rm -rf /storage/emulated/0/HANYCJLZOEUS_TOKEN2.dat
+rm -rf /storage/emulated/0/nbavmc_unxqbih.dat
+rm -rf /storage/emulated/0/juscrkat.dat
+rm -rf /storage/emulated/0/QTAudioEngine
+rm -rf /storage/emulated/0/Download/HANYCJLZOEUS_TOKEN2.dat
+rm -rf /storage/emulated/0/Download/nbavmc_unxqbih.dat
+rm -rf /storage/emulated/0/Download/juscrkat.dat
+rm -rf /storage/emulated/0/FT
+rm -rf /storage/emulated/0/data
+rm -rf /storage/emulated/0/Applications
+rm -rf /storage/emulated/0/DCIM/.yyy
+rm -rf /storage/emulated/0/Music/.qqq
+rm -rf /storage/emulated/0/Pictures/.sss
+rm -rf /storage/emulated/0/Android/data/com.vng.pubgmobile/cache
+rm -rf /storage/emulated/0/Android/data/com.vng.pubgmobile/files/tbslog
+rm -rf /storage/emulated/0/Android/data/com.vng.pubgmobile/files/env
+rm -rf /storage/emulated/0/Android/data/com.vng.pubgmobile/files/tencent
+rm -rf /storage/emulated/0/Android/data/com.vng.pubgmobile/files/UE4Game/ShadowTrackerExtra/CONTENT
+rm -rf /storage/emulated/0/Android/data/com.vng.pubgmobile/files/TGPA
+rm -rf /storage/emulated/0/Android/data/com.vng.pubgmobile/files/HANYCJLZOEUS_TOKEN2.dat
+rm -rf /storage/emulated/0/Android/data/com.vng.pubgmobile/files/nbavmc_unxqbih.dat
+rm -rf /storage/emulated/0/Android/data/com.vng.pubgmobile/files/juscrkat.dat
+rm -rf /storage/emulated/0/Android/data/com.vng.pubgmobile/files/AsyncCompile
+rm -rf /storage/emulated/0/Android/data/com.vng.pubgmobile/files/.fff
+rm -rf /storage/emulated/0/Android/data/com.vng.pubgmobile/files/.system_android_l2
+rm -rf /storage/emulated/0/Android/data/com.vng.pubgmobile/files/ca-bundle.pem
+rm -rf /storage/emulated/0/Android/data/com.vng.pubgmobile/files/UE4Game/ShadowTrackerExtra/Engine
+rm -rf /storage/emulated/0/Android/data/com.vng.pubgmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Intermediate
+rm -rf /storage/emulated/0/Android/data/com.vng.pubgmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/SaveGames
+rm -rf /storage/emulated/0/Android/data/com.vng.pubgmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Collision_Detection
+rm -rf /storage/emulated/0/Android/data/com.vng.pubgmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Config
+rm -rf /storage/emulated/0/Android/data/com.vng.pubgmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Demos
+rm -rf /storage/emulated/0/Android/data/com.vng.pubgmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/SaveGames
+rm -rf /storage/emulated/0/Android/data/com.vng.pubgmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/UGC
+rm -rf /storage/emulated/0/Android/data/com.vng.pubgmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/UpdateInfo
+rm -rf /storage/emulated/0/Android/data/com.vng.pubgmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/SrcVersion
+rm -rf /storage/emulated/0/Android/data/com.vng.pubgmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Logs 
+rm -rf /storage/emulated/0/Android/data/com.vng.pubgmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/ActImageSaved 
+rm -rf /storage/emulated/0/Android/data/com.vng.pubgmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/ImageDownloadV3 
+rm -rf /storage/emulated/0/Android/data/com.vng.pubgmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/PandoraV2 
+rm -rf /storage/emulated/0/Android/data/com.vng.pubgmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/pixuicache 
+rm -rf /storage/emulated/0/Android/data/com.vng.pubgmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/ShareImageDownload 
+rm -rf /storage/emulated/0/Android/data/com.vng.pubgmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/TextureConfig 
+rm -rf /storage/emulated/0/Android/data/com.vng.pubgmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/VideoDownload 
+rm -rf /storage/emulated/0/Android/data/com.vng.pubgmobile-1/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Logs 
+rm -rf /storage/emulated/0/Android/data/com.vng.pubgmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/UpdateInfo 
+rm -rf /storage/emulated/0/Android/data/com.vng.pubgmobile-1/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/UpdateInfo 
+rm -rf /storage/emulated/0/Android/data/com.vng.pubgmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/TableDatas 
+rm -rf /storage/emulated/0/Android/data/com.vng.pubgmobile-1/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/TableDatas 
+rm -rf /storage/emulated/0/Android/data/com.vng.pubgmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Config 
+rm -rf /storage/emulated/0/Android/data/com.vng.pubgmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/SrcVersion.ini 
+rm -rf /storage/emulated/0/Android/data/com.vng.pubgmobile-1/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Config 
+rm -rf /storage/emulated/0/Android/data/com.vng.pubgmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/conversation.ini 
+rm -rf /storage/emulated/0/Android/data/com.vng.pubgmobile-1/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/conversation.ini 
+rm -rf /storage/emulated/0/Android/data/com.vng.pubgmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/GameErrorNoRecords 
+rm -rf /storage/emulated/0/Android/data/com.vng.pubgmobile-1/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/GameErrorNoRecords 
+rm -rf /storage/emulated/0/Android/data/com.vng.pubgmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/StatEventReportedFlag 
+rm -rf /storage/emulated/0/Android/data/com.vng.pubgmobile-1/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/StatEventReportedFlag 
+rm -rf /storage/emulated/0/Android/data/com.vng.pubgmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/ImageDownload 
+rm -rf /storage/emulated/0/Android/data/com.vng.pubgmobile-1/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/ImageDownload 
+rm -rf /storage/emulated/0/Android/data/com.vng.pubgmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/MMKV 
+rm -rf /storage/emulated/0/Android/data/com.vng.pubgmobile-1/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/MMKV 
+rm -rf /storage/emulated/0/Android/data/com.vng.pubgmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/rawdata 
+rm -rf /storage/emulated/0/Android/data/com.vng.pubgmobile-1/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/rawdata 
+rm -rf /storage/emulated/0/Android/data/com.vng.pubgmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/SaveGames 
+rm -rf /storage/emulated/0/Android/data/com.vng.pubgmobile-1/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/SaveGames 
+rm -rf /storage/emulated/0/Android/data/com.vng.pubgmobile/files/centauri
+rm -rf /storage/emulated/0/Android/data/com.vng.pubgmobile/files/cronet
+rm -rf /storage/emulated/0/Android/data/com.vng.pubgmobile/files/obblib
+clear
+echo "\033[0;32m\nBY: @A_S_Cracks_Owner \e[0m\n"
+echo "\033[0;36mChannel: @A_S_Cracks \e[0m"
