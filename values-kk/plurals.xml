@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="MT_Bin">
+        <item quantity="other">%d секунд алға айналдыру</item>
+        <item quantity="one">%d секунд алға айналдыру</item>
+    </plurals>
+    <plurals name="plurals_7f110001">
+        <item quantity="other">%d секунд артқа айналдыру</item>
+        <item quantity="one">%d секунд артқа айналдыру</item>
+    </plurals>
+    <plurals name="plurals_7f110002">
+        <item quantity="other">%d жаңа хабарландыру</item>
+        <item quantity="one">%d жаңа хабарландыру</item>
+    </plurals>
+</resources>

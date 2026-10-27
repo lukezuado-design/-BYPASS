@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="MT_Bin">
+        <item quantity="other">წინ გადახვევა %d წამით</item>
+        <item quantity="one">წინ გადახვევა %d წამით</item>
+    </plurals>
+    <plurals name="plurals_7f110001">
+        <item quantity="other">უკან გადახვევა %d წამით</item>
+        <item quantity="one">უკან გადახვევა %d წამით</item>
+    </plurals>
+    <plurals name="plurals_7f110002">
+        <item quantity="other">%d ახალი შეტყობინება</item>
+        <item quantity="one">%d ახალი შეტყობინება</item>
+    </plurals>
+</resources>

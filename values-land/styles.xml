@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="style_7f1403a6" parent="@style/style_7f1400fd">
+        <item name="attr_7f04058b">id_7f0a00bc</item>
+        <item name="attr_7f040598">id_7f0a014e</item>
+    </style>
+    <style name="style_7f140497" parent="@style/style_7f140398">
+        <item name="android:textAppearance">?attr_7f0405ba</item>
+        <item name="android:textColor">?attr_7f040123</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:layout_gravity">start|center|top</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:maxLines">@integer/integer_7f0b0034</item>
+    </style>
+    <style name="style_7f14049a" parent="@style/style_7f140115">
+        <item name="android:layout_gravity">start|bottom|center</item>
+    </style>
+</resources>

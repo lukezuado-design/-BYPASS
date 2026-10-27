@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="style_7f140059" parent="@style/style_7f1402a1">
+        <item name="android:colorControlNormal">#ff65705f</item>
+        <item name="android:colorControlActivated">@color/color_7f060002</item>
+        <item name="android:colorButtonNormal">@color/color_7f060001</item>
+        <item name="android:colorControlHighlight">#407cff00</item>
+        <item name="android:colorPrimary">@color/color_7f060001</item>
+        <item name="android:colorPrimaryDark">#ff102600</item>
+        <item name="android:colorAccent">@color/color_7f060002</item>
+        <item name="android:statusBarColor">#ff102600</item>
+        <item name="android:navigationBarColor">#ff081400</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="attr_7f040115">@color/color_7f060002</item>
+        <item name="attr_7f040117">@color/color_7f060001</item>
+        <item name="attr_7f040119">@color/color_7f060002</item>
+        <item name="attr_7f04011a">#407cff00</item>
+        <item name="attr_7f04011b">#ff65705f</item>
+        <item name="attr_7f040135">@color/color_7f060001</item>
+        <item name="attr_7f040137">#ff102600</item>
+    </style>
+    <style name="style_7f140278" parent="@style/style_7f140276" />
+    <style name="style_7f140279" parent="@style/style_7f140276" />
+    <style name="style_7f14027a" parent="@style/style_7f14027f" />
+    <style name="style_7f14027b" parent="@style/style_7f140280" />
+    <style name="style_7f14027c" parent="@style/style_7f140281" />
+    <style name="style_7f14027d" parent="@style/style_7f140282" />
+    <style name="style_7f14027e" parent="@style/style_7f14028b" />
+    <style name="style_7f14029b" parent="@style/style_7f140293" />
+    <style name="style_7f14029c" parent="@style/style_7f140294" />
+    <style name="style_7f14029d" parent="@style/style_7f140295" />
+    <style name="style_7f14029e" parent="@style/style_7f140296" />
+    <style name="style_7f14029f" parent="@style/style_7f140297" />
+    <style name="style_7f1402a0" parent="@style/style_7f140298" />
+    <style name="style_7f1402a1" parent="@style/style_7f140299" />
+    <style name="style_7f1402a2" parent="@style/style_7f14029a" />
+    <style name="style_7f1402a5" parent="@style/style_7f1402a3" />
+    <style name="style_7f1402a6" parent="@style/style_7f1402a4" />
+    <style name="style_7f1402b5" parent="@style/style_7f1402b1" />
+    <style name="style_7f1402b6" parent="@style/style_7f1402b2" />
+    <style name="style_7f1402b7" parent="@style/style_7f1402b3" />
+    <style name="style_7f1402b8" parent="@style/style_7f1402b1" />
+    <style name="style_7f1402b9" parent="@style/style_7f1402b3" />
+    <style name="style_7f1402ba" parent="@style/style_7f1402c5" />
+    <style name="style_7f1402bb" parent="@style/style_7f1402c6" />
+    <style name="style_7f1402bc" parent="@style/style_7f1402c7" />
+    <style name="style_7f1402bd" parent="@style/style_7f1402c8" />
+    <style name="style_7f1402be" parent="@style/style_7f1402c9" />
+    <style name="style_7f1402bf" parent="@style/style_7f1402ca" />
+    <style name="style_7f1402c0" parent="@style/style_7f1402cb" />
+    <style name="style_7f1402c1" parent="@style/style_7f1402cc" />
+    <style name="style_7f1402c2" parent="@style/style_7f1402cd" />
+    <style name="style_7f1402c3" parent="@style/style_7f1402de" />
+    <style name="style_7f1402c4" parent="@style/style_7f1402df" />
+    <style name="style_7f1402e4" parent="@style/style_7f1402e2" />
+    <style name="style_7f140307" parent="@style/style_7f140306" />
+    <style name="style_7f140455" parent="@style/style_7f140457" />
+    <style name="style_7f14045a" parent="@style/style_7f14045b" />
+    <style name="style_7f140463" parent="@style/style_7f140461" />
+    <style name="style_7f140466" parent="@style/style_7f140464" />
+    <style name="style_7f1404a7" parent="@style/style_7f1404a3" />
+    <style name="style_7f1404b5" parent="@style/style_7f1404b3" />
+    <style name="style_7f1404cf" parent="@style/style_7f1404d0" />
+</resources>
