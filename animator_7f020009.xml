@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:state_enabled="true"
+        app:attr_7f040561="true"
+        app:attr_7f040562="false">
+        <objectAnimator
+            android:duration="@integer/integer_7f0b0002"
+            android:valueTo="@dimen/dimen_7f0701cd"
+            android:valueType="floatType"
+            android:propertyName="elevation" />
+    </item>
+    <item
+        android:state_enabled="true">
+        <objectAnimator
+            android:duration="@integer/integer_7f0b0002"
+            android:valueTo="@dimen/dimen_7f0701cf"
+            android:valueType="floatType"
+            android:propertyName="elevation" />
+    </item>
+    <item>
+        <objectAnimator
+            android:duration="0"
+            android:valueTo="@dimen/dimen_7f0701cd"
+            android:valueType="floatType"
+            android:propertyName="elevation" />
+    </item>
+</selector>
